@@ -1,5 +1,4 @@
 <script>
-    import { onMount } from 'svelte';
     import currency from 'currency.js';
     import 'normalize.css';
     import '../app.css';
