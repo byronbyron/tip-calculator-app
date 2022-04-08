@@ -105,7 +105,7 @@
         </div>
 
         <div class="form-group">
-            <label for="tip" class="form-label">Select Tip %</label>
+            <label class="form-label">Select Tip %</label>
             
             <div class="radio-group">
                 {#each radios as radio, i}
