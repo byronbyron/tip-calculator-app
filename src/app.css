@@ -138,6 +138,7 @@ input[type=number] {
 
 ::placeholder {
   color: var(--dark-grayish-cyan);
+  opacity: 0.5;
 }
 
 .btn {

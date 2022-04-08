@@ -97,7 +97,7 @@
     <form class="form">
         <div class="form-group">
             <label for="bill" class="form-label">Bill</label>
-            <input type="number" min="1" step="any" name="bill" id="bill" class="form-control form-dollar" aria-invalid="{bill === 0 ? 'true' : 'false'}" bind:value={bill} on:keyup={handleInput}>
+            <input type="number" min="1" step="any" name="bill" id="bill" class="form-control form-dollar" placeholder="0" aria-invalid="{bill === 0 ? 'true' : 'false'}" bind:value={bill} on:keyup={handleInput}>
 
             {#if bill === 0}
                 <span class="form-message">Can't be zero</span>
@@ -122,7 +122,7 @@
 
         <div class="form-group">
             <label for="people" class="form-label">Number of People</label>
-            <input type="number" name="people" id="people" class="form-control form-person" aria-invalid="{people === 0 ? 'true' : 'false'}" bind:value={people} on:keyup={handleInput}>
+            <input type="number" name="people" id="people" class="form-control form-person" placeholder="0" aria-invalid="{people === 0 ? 'true' : 'false'}" bind:value={people} on:keyup={handleInput}>
             
             {#if people === 0}
                 <span class="form-message">Can't be zero</span>
